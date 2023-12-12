@@ -1,0 +1,107 @@
+@import './../../index.scss';
+
+.course-container {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
+  .box {
+    margin: 120px 150px;
+
+    .title {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+
+      .vertical-line {
+        height: 92px;
+        display: flex;
+        // padding-left: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-left: 4px solid $bg-renga-brick;
+      }
+
+      .text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        h2 {
+          color: $font-haiti;
+          font-family: $family-titillium-web;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 50.4px;
+        }
+
+        p {
+          color: $font-tiger-lily;
+          font-family: $family-titillium-web;
+          font-size: 21px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 29.4px;
+        }
+      }
+    }
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      gap: 55px;
+
+      .item-box {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .counting-box {
+          display: flex;
+          padding: 24px 18px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          background: $bg-tiger-lily;
+
+          .count {
+            color: $font-white;
+            // leading-trim: both;
+            // text-edge: cap;
+            font-family: $family-titillium-web;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 29.4px;
+          }
+        }
+
+        .text {
+
+          h3 {
+            color: $font-haiti;
+            // leading-trim: both;
+            // text-edge: cap;
+            font-family: $family-inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25.2px;
+          }
+
+          p {
+            color: $font-haiti;
+            font-family: $family-inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22.4px;
+          }
+        }
+      }
+    }
+  }
+}

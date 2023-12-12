@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header";
+import About from "./Components/About";
+import Target from "./Components/Target";
+import Description from "./Components/Descriprion";
+import Report from "./Components/Report";
+import Course from "./Components/Course";
+import Author from "./Components/Author";
+import Result from "./Components/Result";
+
+import Timer from "./Components/Timer";
 
 function App() {
+  const start = 15;
+  const startTime = new Date().getTime() + start * 1000;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <About />
+      <Target />
+      <Description />
+      <Report />
+      <Course />
+      <Result />
+      <Author />
+      <Timer startTime={startTime} startFrom="seconds" />
     </div>
   );
 }

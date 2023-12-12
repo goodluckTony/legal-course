@@ -1,0 +1,192 @@
+@import './../../index.scss';
+
+// @font-face {
+//   font-family: "Oswald";
+//   src: url("../../assets/fonts/Oswald/static/Oswald-Regular.ttf");
+// }
+// @font-face {
+//   font-family: "TitilliumWeb";
+//   src: url("../../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf");
+// }
+
+.header-container {
+  background-color: $bg-black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+  .top {
+    // height: 700px;
+    display: flex;
+    // justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    // margin: 160px 0 0 150px;
+    gap: 40px;
+    
+
+    .top-title {
+      width: 50%;
+
+      .top-title-logo {
+        display: flex;
+        gap: 24px;
+        margin: 40px 0 0 150px;
+
+        .top-title-logo-box {
+          width: 29.8px;
+          height: 29.8px;
+
+          .logo {}
+        }
+
+        .top-title-logo-name {
+          width: 106px;
+          height: 36px;
+
+          .logo-name {
+            font-family: 'Titillium Web', sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 18.2px;
+            color: $font-white;
+          }
+        }
+      }
+
+      .top-title-name {
+        display: flex;
+        flex-direction: column;
+        // width: 530px;
+        // height: 251px;
+        margin: 180px 0 250px 150px;
+        gap: 35px;
+
+        .top-heading {
+          font-family: 'Oswald', sans-serif;
+          font-weight: 100;
+          font-size: 76px;
+          line-height: 83.6px;
+          color: #ffffff;
+
+          .top-heading-highlight {
+            color: $font-tiger-lily;
+          }
+        }
+
+        .top-info {
+          // width: 508px;
+          margin-top: 35px;
+
+          .top-info-text {
+            font-family: 'Titillium Web', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .top-bg {
+      width: 50%;
+      // z-index: 10;
+      // background: url("../../assets/img/header/Military.png");
+      // height: 700px;
+      // background-size: cover;
+      // background-repeat: no-repeat;
+      // background-position: 50% 50%;
+
+        .bg-military {
+          width: 100%;
+        }
+      }
+  }
+
+  .bottom {
+    // height: 129px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: $bg-renga-brick;
+    // padding: 25px 150px;
+
+    .bottom-text-box {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin: 25px 150px;
+
+      .bottom-info {
+        // width: 714px;
+        // height: 66px;
+        
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        
+  
+        .bottom-info-box {
+          // width: 563px;
+          // padding-right: 20px;
+  
+          .bottom-info-text {
+            font-family: 'Titillium Web', sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 26px;
+            color: $font-white;
+            // padding-right: 20px;
+          }
+        }
+  
+        .bottom-price {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+  
+          .bottom-price-after {
+  
+            .price-after {
+              font-family: 'Titillium Web', sans-serif;
+              font-weight: 700;
+              font-size: 28px;
+              line-height: 36.4px;
+              color: $font-white;
+            }
+          }
+  
+          .bottom-price-before {
+  
+            .price-before {
+              font-family: 'Titillium Web', sans-serif;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 26px;
+              color: $font-black;
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+  
+      .bottom-timer-container {
+  
+        .bottom-timer {
+          font-family: 'Titillium Web', sans-serif;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 62.4;
+          color: $font-white;
+        }
+      }
+    }
+  }
+}

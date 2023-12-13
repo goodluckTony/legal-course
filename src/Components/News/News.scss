@@ -1,0 +1,107 @@
+@import './../../index.scss';
+
+.news-container {
+
+  .box {
+    display: flex;
+    // width: 100%;
+    margin: 120px 150px;
+    gap: 20px;
+    justify-content: space-between;
+
+    .img-box {
+      width: 463px;
+      height: 617px;
+      background: url("./../../assets/img/news/news-img.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50%;
+    }
+
+    .info-box {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .quote-top {
+        background: url("./../../assets/img/news/quote-1.svg");
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        opacity: 1;
+        align-self: flex-start;
+        margin-left: -50px;
+      }
+
+      .wrapper {
+        // width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+
+        .post-box {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 27px;
+
+          .text {
+            // width: 516px;
+            color: $font-black;
+            font-family: $family-inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20.8px;
+            flex-shrink: 1; /* Allow the text container to shrink if needed */
+            max-width: 100%;
+          }
+
+          .news-btn {
+            display: flex;
+            height: 44px;
+            padding: 0px 20px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background: #176BFB;
+            border: none;
+
+            color: $font-white;
+            font-family: $family-inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20.8px;
+
+            .fb-svg {
+              background: url("./../../assets/img/news/fb-icon.svg");
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+      }
+
+      .quote-bottom {
+        background: url("./../../assets/img/news/quote-1.svg");
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        opacity: 1;
+        align-self: flex-end;
+        margin-right: -50px;
+
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

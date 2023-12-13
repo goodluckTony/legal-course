@@ -46,7 +46,7 @@
     }
 
     .list {
-      width: 589px;
+      // min-width: 589px;
       // height: 336px;
 
       .box {
@@ -63,6 +63,7 @@
 
         .item {
           display: flex;
+          justify-content: center;
           align-items: center;
           gap: 15px;
   

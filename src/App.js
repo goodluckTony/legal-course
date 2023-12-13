@@ -7,6 +7,7 @@ import Course from "./Components/Course";
 import Author from "./Components/Author";
 import Result from "./Components/Result";
 import Diplomas from "./Components/Diplomas";
+import News from "./Components/News";
 
 import Timer from "./Components/Timer";
 
@@ -25,6 +26,7 @@ function App() {
       <Result />
       <Author />
       <Diplomas />
+      <News />
       <Timer startTime={startTime} startFrom="seconds" />
     </div>
   );

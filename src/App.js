@@ -8,12 +8,13 @@ import Author from "./Components/Author";
 import Result from "./Components/Result";
 import Diplomas from "./Components/Diplomas";
 import News from "./Components/News";
+import Questions from "./Components/Questions";
 
-import Timer from "./Components/Timer";
+// import Timer from "./Components/Timer";
 
 function App() {
-  const start = 15;
-  const startTime = new Date().getTime() + start * 1000;
+  // const start = 15;
+  // const startTime = new Date().getTime() + start * 1000;
 
   return (
     <div className="App">
@@ -27,7 +28,8 @@ function App() {
       <Author />
       <Diplomas />
       <News />
-      <Timer startTime={startTime} startFrom="seconds" />
+      <Questions />
+      {/* <Timer startTime={startTime} startFrom="seconds" /> */}
     </div>
   );
 }

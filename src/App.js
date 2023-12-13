@@ -6,6 +6,7 @@ import Report from "./Components/Report";
 import Course from "./Components/Course";
 import Author from "./Components/Author";
 import Result from "./Components/Result";
+import Diplomas from "./Components/Diplomas";
 
 import Timer from "./Components/Timer";
 
@@ -23,6 +24,7 @@ function App() {
       <Course />
       <Result />
       <Author />
+      <Diplomas />
       <Timer startTime={startTime} startFrom="seconds" />
     </div>
   );

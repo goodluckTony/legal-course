@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/legal-course/static/css/main.c9968683.css",
-    "main.js": "/legal-course/static/js/main.35ff2826.js",
+    "main.css": "/legal-course/static/css/main.300d8dfa.css",
+    "main.js": "/legal-course/static/js/main.1520ec92.js",
     "static/media/news-img.svg": "/legal-course/static/media/news-img.6245cf23f2fdc47d65ee.svg",
     "static/media/svg-3.svg": "/legal-course/static/media/svg-3.f3b5a2822d787fe13a2d.svg",
     "static/media/judges-gavel.png": "/legal-course/static/media/judges-gavel.ffc47df15842eb3b7850.png",
+    "static/media/footer-gb.svg": "/legal-course/static/media/footer-gb.60af93762b4b1e40b447.svg",
     "static/media/Military.png": "/legal-course/static/media/Military.fdfabf5af3bf8aabbac9.png",
     "static/media/femida.png": "/legal-course/static/media/femida.37fe52c49edd5fbb6c17.png",
     "static/media/diplomas-bg.png": "/legal-course/static/media/diplomas-bg.f297728fec5771669f25.png",
@@ -17,14 +18,17 @@
     "static/media/gavel.svg": "/legal-course/static/media/gavel.87d9474bb025d35ccf05.svg",
     "static/media/family.svg": "/legal-course/static/media/family.ac075161798c24d7801b.svg",
     "static/media/scales.svg": "/legal-course/static/media/scales.932fcdac32c575f0e247.svg",
+    "static/media/viber-icon.svg": "/legal-course/static/media/viber-icon.85b0f246501e87dccea0.svg",
+    "static/media/telegram-icon.svg": "/legal-course/static/media/telegram-icon.24ca937414ee0e7d320f.svg",
     "static/media/quote-1.svg": "/legal-course/static/media/quote-1.d0ff020dc6153e63cb0a.svg",
     "static/media/fb-icon.svg": "/legal-course/static/media/fb-icon.6cb5f4a7d99d69b580b1.svg",
+    "static/media/facebook-icon.svg": "/legal-course/static/media/facebook-icon.a57eb6ca68826b5b2fed.svg",
     "index.html": "/legal-course/index.html",
-    "main.c9968683.css.map": "/legal-course/static/css/main.c9968683.css.map",
-    "main.35ff2826.js.map": "/legal-course/static/js/main.35ff2826.js.map"
+    "main.300d8dfa.css.map": "/legal-course/static/css/main.300d8dfa.css.map",
+    "main.1520ec92.js.map": "/legal-course/static/js/main.1520ec92.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9968683.css",
-    "static/js/main.35ff2826.js"
+    "static/css/main.300d8dfa.css",
+    "static/js/main.1520ec92.js"
   ]
 }

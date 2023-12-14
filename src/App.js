@@ -9,6 +9,9 @@ import Result from "./Components/Result";
 import Diplomas from "./Components/Diplomas";
 import News from "./Components/News";
 import Questions from "./Components/Questions";
+import Footer from "./Components/Footer";
+
+// import MailForm from "./Components/MailForm";
 
 // import Timer from "./Components/Timer";
 
@@ -29,6 +32,8 @@ function App() {
       <Diplomas />
       <News />
       <Questions />
+      {/* <MailForm/> */}
+      <Footer/>
       {/* <Timer startTime={startTime} startFrom="seconds" /> */}
     </div>
   );

@@ -8,7 +8,7 @@ const AccordionSection = ({
   sectionIndex,
 }) => {
   const toggleSection = () => {
-    const nextIndex = isActiveSection ? null : sectionIndex;
+    const nextIndex = isActiveSection ? -1 : sectionIndex;
     setActiveIndex(nextIndex);
   };
   return (
@@ -26,7 +26,7 @@ const AccordionSection = ({
 };
 
 const Accordion = ({ sections }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(-1);
   return (
     <div className="accordion-container">
       {sections.map((section, index) => (
@@ -39,7 +39,7 @@ const Accordion = ({ sections }) => {
         />
       ))}
     </div>
-  );
+  ); 
 };
 
 export default Accordion;

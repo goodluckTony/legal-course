@@ -42,7 +42,8 @@
     .img-box {
       width: 100%;
       display: flex;
-      gap: 28px;
+      flex-wrap: wrap;
+      gap: 20px;
       justify-content: space-between;
 
       .img-top {

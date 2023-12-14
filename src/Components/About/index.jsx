@@ -1,4 +1,5 @@
 import "./About.scss"; 
+import MailForm from "../MailForm";
 
 const About = () => {
   return (
@@ -18,7 +19,10 @@ const About = () => {
           Знижка 50 % на консультацію адвоката.</p>
         </div>
       </div>
-      <div className="about-form-container">
+      <div className="about-form-box">
+        <MailForm />
+      </div>
+      {/* <div className="about-form-container">
         <div className="about-form-title">
           <div className="about-title">
             <p >Приєднайся до онлайн курсу</p>
@@ -45,7 +49,7 @@ const About = () => {
             <input className="form-btn" type="submit" value="Зареєструватися"></input>
           </form>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

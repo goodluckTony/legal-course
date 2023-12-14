@@ -1,0 +1,118 @@
+@import './../../index.scss';
+
+.footer-container {
+  background: url("./../../assets/img/footer/footer-gb.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .top-container {
+    display: flex;
+
+    .title-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin: 163px 150px 141px 150px;
+      flex: 1 1;
+
+      h2 {
+      color: $font-white;
+      font-family: $family-titillium-web;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 50.4px */}
+
+      p {
+        color: $font-white;
+        font-family: $family-titillium-web;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 25.2px */
+      }
+    }
+  }
+
+  .bottom-container {
+    padding: 70px 150px 30px 150px;
+    background: $bg-black;
+
+    .bottom-box {
+      display: flex;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      
+      .left-box {
+
+        p {
+          color: $font-white;
+          font-family: $family-titillium-web;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%; /* 21px */
+          opacity: 0.45;
+        }
+      }
+
+      .middle-box {
+
+        p {
+          color: $font-white;
+          font-family: $family-titillium-web;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%; /* 21px */
+          opacity: 0.45;
+        }
+      }
+
+      .right-box {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .svg-box {
+          display: flex;
+          gap: 20px;
+
+          .telegram-svg {
+            background: url("./../../assets/img/footer/telegram-icon.svg");
+            width: 30px;
+            height: 30px;
+            opacity: 0.45;
+          }
+
+          .viber-svg {
+            background: url("./../../assets/img/footer/viber-icon.svg");
+            width: 30px;
+            height: 30px;
+            opacity: 0.45;
+          }
+
+          .fb-svg {
+            background: url("./../../assets/img/footer/facebook-icon.svg");
+            width: 30px;
+            height: 30px;
+            opacity: 0.45;
+          }
+        }
+
+        .mail {
+          color: $font-white;
+          font-family: $family-titillium-web;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%; /* 21px */
+          opacity: 0.45;
+        }
+      }
+    }
+  }
+}

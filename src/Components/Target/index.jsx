@@ -6,7 +6,7 @@ const Target = () => {
     <div className='target-container container'>
       <div className='target-box'>
         <div className='target-title'>
-          <h2>Курс «Інтенсив з військовогo права» <span>Кому підходить:</span></h2>
+          <h2>Курс «Інтенсив з військовогo права» <br /><span>Кому підходить:</span></h2>
         </div>
         <div className='target-list-box'>
           <div className='scales-item'>

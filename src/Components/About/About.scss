@@ -7,7 +7,8 @@
   align-items: center;
   // background-image: url('./../../assets/img/about/Military-formation.png');
   background: url('./../../assets/img/about/Military-formation.png'), no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   flex-shrink: 0;
 
   .about-info {
@@ -18,7 +19,7 @@
     align-items: flex-start;
     margin: 114px 163px 114px 150px;
     // padding-right: 50px;
-    margin: 114px 150px 114px 150px;
+    margin: 114px 150px;
 
     .info-title-box {
       display: flex;

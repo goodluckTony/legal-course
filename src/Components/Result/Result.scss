@@ -13,15 +13,21 @@
   .title-container {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     margin: 176px 150px 126px 150px;
     gap: 25px;
+    width: 100%;
 
     .title {
       display: flex;
       gap: 24px;
-      // justify-content: flex-end;
-// align-items: center;
+      width: 40%;
+      width: fit-content;
 
+      &::before {
+        content: "";
+        border-left: 4px solid $bg-renga-brick;
+      }
       .vertical-line {
         // height: 100px;
         // display: flex;
@@ -29,12 +35,12 @@
         // flex-direction: column;
         // align-items: flex-start;
         // border-left: 4px solid $bg-renga-brick;
-
-        flex: 1;
-        border-left: 4px solid $bg-renga-brick;
+        
+        // flex: 1;
+        // border-left: 4px solid $bg-renga-brick;
         // margin-right: 12px;
       }
-
+      
       h2 {
         color: $font-haiti;
         font-family: $family-titillium-web;
@@ -46,6 +52,7 @@
     }
 
     .list {
+      width: 60%;
       // min-width: 589px;
       // height: 336px;
 
@@ -60,20 +67,78 @@
         background-size: cover;
         background-repeat: no-repeat;
         padding: 60px 40px;
+        box-sizing: border-box;
+
+        // ul {
+        //   display: flex;
+        //   flex-direction: column;
+        //   gap: 25px;
+
+        //   li {
+        //     color: aliceblue;
+        //     list-style-image:  url("./../../assets/img/result/check-mark.png");
+        //     background-repeat: no-repeat;
+        //     background-position: left center; /* Center the background image vertically */
+        //     padding-left: 40px; /* Adjust to provide space for the marker */
+        //     margin-left: 0; /* Reset default margin for the li */
+            
+        //     /* Vertically center the marker */
+        //     display: flex;
+        //     align-items: center;
+
+        //     color: $font-white;
+        //     font-family: $family-inter;
+        //     font-size: 21px;
+        //     font-style: normal;
+        //     font-weight: 300;
+        //     line-height: 29.4px;
+
+        //     // display: flex;
+        //     // flex-direction: column;
+        //     padding-left: 15px;
+        //     margin-left: 25px;
+
+        //     // &::marker {
+        //     //   content: "";
+        //     //   background-image: url("./../../assets/img/result/check-mark.png");
+        //     //   width: 20px;
+        //     //   height: 20px;
+        //     // }
+        //   }
+        // }
 
         .item {
           display: flex;
           justify-content: center;
           align-items: center;
-          gap: 15px;
+          gap: 7.5px;
   
-          .check-svg {
+          // .check-svg {
+          //   width: 30px;
+          //   height: 13px;
+          //   background: url("./../../assets/img/result/check-mark.png");
+          //   background-repeat: no-repeat;
+          // }
+          
+          &::before {
+            content: "";
+            background-image: url("./../../assets/img/result/check-mark.png");
+            // display: inline;
+            background-size: contain;
+            // background-position: 50%;
+            background-repeat: no-repeat;
             width: 16px;
             height: 13px;
-            background: url("./../../assets/img/result/check-mark.png");
+            padding-right: 7.5px;
           }
-  
+
           .info-box {
+            // display: flex;
+            // align-content: center;
+            // flex-direction: row;
+            // align-items: center;
+            // gap: 15px;
+
   
             p {
               color: $font-white;

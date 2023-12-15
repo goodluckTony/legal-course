@@ -33,7 +33,7 @@ const Header = () => {
           </div>
         </div>
         <div className="top-bg">
-          <img className="bg-military" src={Military} alt="Military" />
+          {/* <img className="bg-military" src={Military} alt="Military" /> */}
           {/* <div className="top-bg-img"></div> */}
         </div>
       </div>
@@ -42,7 +42,7 @@ const Header = () => {
           <div className="bottom-info">
             <div className="bottom-info-box">
               <p className="bottom-info-text">
-                Приєднайся до онлайн курсу «Інтенсив з військового права» за
+                Приєднайся до онлайн курсу «Інтенсив з військового <br />права» за
                 спеціальною акційною пропозицією всього за
               </p>
             </div>

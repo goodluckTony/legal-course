@@ -20,7 +20,7 @@ const AccordionSection = ({
       {isActiveSection && (
         <div className="answer">{section.answer}</div>
         )}
-        <div className="horizontal-line"></div>
+      {/* <div className="horizontal-line"></div> */}
     </div>
   );
 };

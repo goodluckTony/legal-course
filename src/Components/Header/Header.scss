@@ -85,6 +85,7 @@
             font-size: 18px;
             line-height: 27px;
             color: #ffffff;
+            // padding-right: 50px;
           }
         }
       }
@@ -92,31 +93,25 @@
 
     .top-bg {
       width: 50%;
-      // z-index: 10;
-      // background: url("../../assets/img/header/Military.png");
-      // height: 700px;
-      // background-size: cover;
-      // background-repeat: no-repeat;
-      // background-position: 50% 50%;
+      // width: 100%;
+      background: url("./../../assets/img/header/Military.png"), no-repeat;
+      background-size: cover;
+      background-repeat: no-repeat;
 
         .bg-military {
-          width: 100%;
         }
       }
   }
 
   .bottom {
-    // height: 129px;
     display: flex;
     justify-content: center;
-    // align-items: center;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 2;
     background-color: $bg-renga-brick;
-    // padding: 25px 150px;
 
     .bottom-text-box {
       display: flex;
@@ -125,17 +120,12 @@
       margin: 25px 150px;
 
       .bottom-info {
-        // width: 714px;
-        // height: 66px;
-        
         display: flex;
         align-items: center;
         gap: 20px;
+        flex: 1 1;
         
-  
         .bottom-info-box {
-          // width: 563px;
-          // padding-right: 20px;
   
           .bottom-info-text {
             font-family: 'Titillium Web', sans-serif;
@@ -143,7 +133,6 @@
             font-size: 20px;
             line-height: 26px;
             color: $font-white;
-            // padding-right: 20px;
           }
         }
   

@@ -2,6 +2,7 @@
 
 .footer-container {
   background: url("./../../assets/img/footer/footer-gb.svg");
+  // background-position: 20% 80%;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -111,6 +112,7 @@
           font-weight: 400;
           line-height: 140%; /* 21px */
           opacity: 0.45;
+          text-decoration: none;
         }
       }
     }

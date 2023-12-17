@@ -6,13 +6,16 @@
   align-items: center;
 
   .box {
+    width: 100%;
     display: flex;
     margin: 120px 150px;
-    gap: 140px;
+    // gap: 140px;
 
     .title {
+      width: 60%;
       display: flex;
       flex-direction: column;
+      margin-right: 140px;
 
       .title-box {
         display: flex;
@@ -77,13 +80,17 @@
     }
 
     .img-box {
+      width: 40%;
 
 
       .img {
         width: 381.212px;
         height: 461px;
+        // width: 100%;
         flex-shrink: 0;
         background: url("./../../assets/img/author/author-img.png"), lightgray -105.681px -32.422px / 153.698% 127.096% no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
     }
   }

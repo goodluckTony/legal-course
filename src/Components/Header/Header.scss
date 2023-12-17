@@ -105,7 +105,7 @@
 
   .bottom {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -114,6 +114,7 @@
     background-color: $bg-renga-brick;
 
     .bottom-text-box {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       gap: 20px;
@@ -122,10 +123,11 @@
       .bottom-info {
         display: flex;
         align-items: center;
-        gap: 20px;
-        flex: 1 1;
+        gap: 8px;
+        // flex: 1 1;
         
         .bottom-info-box {
+          width: 100%;
   
           .bottom-info-text {
             font-family: 'Titillium Web', sans-serif;
@@ -137,6 +139,7 @@
         }
   
         .bottom-price {
+          width: 143px;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -167,8 +170,9 @@
       }
   
       .bottom-timer-container {
-  
+        
         .bottom-timer {
+          // width: 316px;
           font-family: 'Titillium Web', sans-serif;
           font-weight: 700;
           font-size: 48px;

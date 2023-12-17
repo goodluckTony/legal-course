@@ -18,12 +18,13 @@ $family-inter: "Inter", sans-serif;
 $family-nurito-sans: "Nurito Sans", sans-serif;
 $family-montserrat: "Montserrat", sans-serif;
 
-$breakpoint-sm: 576px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 1440px;
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1440px;
 
 html, 
-body, * { 
+body, 
+* { 
   margin: 0; padding: 0; 
 }
 

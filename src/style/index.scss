@@ -20,16 +20,46 @@ $family-montserrat: "Montserrat", sans-serif;
 
 $breakpoint-mobile: 576px;
 $breakpoint-tablet: 768px;
-$breakpoint-desktop: 1440px;
+$breakpoint-desktop1: 1024px;
+$breakpoint-desktop2: 1440px;
 
-html, 
-body, 
+body {
+  min-width: 320px;
+}
+
 * { 
   margin: 0; padding: 0; 
+  list-style: none;
+  text-decoration: none;
 }
 
-.container {
-  // margin: 0 auto;
-  // padding: 0 150px;
-  width: 100%;
+// .container {
+//   margin: 0 auto;
+//   padding: 0 150px;
+//   width: 100%;
+// }
+
+@mixin onTabletAndDesktopGrid {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  column-gap: 24px;
 }
+
+@mixin onMobileGrid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 15px;
+}
+
+@mixin onTablet {
+  @media (min-width: 768px) and (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin onMobile {
+  @media (min-width: 360px) and (max-width: 768px) {
+    @content;
+  }
+}
+

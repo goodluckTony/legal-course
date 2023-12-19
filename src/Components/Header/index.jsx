@@ -1,6 +1,6 @@
 import "./Header.scss";
 import LOGO from "../../assets/img/header/LOGO.png";
-import Military from "../../assets/img/header/Military.png";
+// import Military from "../../assets/img/header/Military.png";
 import Timer from "../Timer";
 
 const Header = () => {
@@ -42,7 +42,7 @@ const Header = () => {
           <div className="bottom-info">
             <div className="bottom-info-box">
               <p className="bottom-info-text">
-                Приєднайся до онлайн курсу «Інтенсив з військового <br />права» за
+                Приєднайся до онлайн курсу «Інтенсив з військового права» за
                 спеціальною акційною пропозицією всього за
               </p>
             </div>

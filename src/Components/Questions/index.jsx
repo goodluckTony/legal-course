@@ -1,7 +1,6 @@
 import "./Questions.scss";
 import { Data } from "./Data.jsx";
 import Accordion from "./Accordion.jsx";
-
 const Questions = () => {
   return (
     <div className="questions-container container">
@@ -17,5 +16,4 @@ const Questions = () => {
     </div>
   )
 }
-
 export default Questions;

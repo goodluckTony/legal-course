@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./../../index.scss";
+import "./../../style/index.scss";
 
 const AccordionSection = ({
   section,
@@ -14,13 +14,15 @@ const AccordionSection = ({
   return (
     <div className="accordion-box">
       <div className="question-box" onClick={toggleSection}>
-        <div className="name">{section.question}</div>
-        <div className="is-open">{isActiveSection ? "-" : "+"}</div>
-      </div>
-      {isActiveSection && (
-        <div className="answer">{section.answer}</div>
+        <div className="question-section">
+          <div className="name">{section.question}</div>
+          <div className="is-open">{isActiveSection ? "-" : "+"}</div>
+        </div>
+        {isActiveSection && (
+          <div className="answer">{section.answer}</div>
         )}
-      {/* <div className="horizontal-line"></div> */}
+      </div>
+      <div className="horizontal-line"></div>
     </div>
   );
 };

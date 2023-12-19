@@ -1,31 +1,18 @@
-@import './../../index.scss';
-
-// @font-face {
-//   font-family: "Oswald";
-//   src: url("../../assets/fonts/Oswald/static/Oswald-Regular.ttf");
-// }
-// @font-face {
-//   font-family: "TitilliumWeb";
-//   src: url("../../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf");
-// }
+@import './../../style/index.scss';
 
 .header-container {
   background-color: $bg-black;
   display: flex;
   justify-content: center;
   position: relative;
-  
+
   .top {
-    // height: 700px;
     display: flex;
-    // justify-content: space-between;
     position: relative;
     z-index: 1;
     width: 100%;
-    // margin: 160px 0 0 150px;
     gap: 40px;
     
-
     .top-title {
       width: 50%;
 
@@ -58,8 +45,6 @@
       .top-title-name {
         display: flex;
         flex-direction: column;
-        // width: 530px;
-        // height: 251px;
         margin: 180px 0 250px 150px;
         gap: 35px;
 
@@ -76,7 +61,6 @@
         }
 
         .top-info {
-          // width: 508px;
           margin-top: 35px;
 
           .top-info-text {
@@ -85,7 +69,6 @@
             font-size: 18px;
             line-height: 27px;
             color: #ffffff;
-            // padding-right: 50px;
           }
         }
       }
@@ -93,7 +76,6 @@
 
     .top-bg {
       width: 50%;
-      // width: 100%;
       background: url("./../../assets/img/header/Military.png"), no-repeat;
       background-size: cover;
       background-repeat: no-repeat;
@@ -105,7 +87,6 @@
 
   .bottom {
     display: flex;
-    // justify-content: center;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -124,7 +105,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        // flex: 1 1;
+        flex-shrink: 1;
         
         .bottom-info-box {
           width: 100%;
@@ -170,16 +151,15 @@
       }
   
       .bottom-timer-container {
+        display: flex;
         
         .bottom-timer {
-          // width: 316px;
-          font-family: 'Titillium Web', sans-serif;
-          font-weight: 700;
-          font-size: 48px;
-          line-height: 62.4;
-          color: $font-white;
         }
       }
     }
   }
 }
+
+
+
+

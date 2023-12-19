@@ -1,10 +1,11 @@
-@import './../../index.scss';
+@import './../../style/index.scss';
 
 .report-container {
   display: flex;
   margin: 0 auto;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
+
   background: url("./../../assets/img/report/report-bg.png"), lightgray 50% / cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,7 +34,7 @@
         margin-left: 24px;
 
         color: $font-white;
-        font-family: $family-inter;
+        font-family: $family-titillium-web;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -45,7 +46,7 @@
 
       .info-top p, .info-bottom p {
         color: $font-white;
-        font-family: $family-inter;
+        font-family: $family-titillium-web;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;

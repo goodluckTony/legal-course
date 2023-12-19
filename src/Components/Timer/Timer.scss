@@ -1,7 +1,8 @@
-@import './../../index.scss';
+@import './../../style/index.scss';
 
 .countdown-timer {
-  width: 316px;
+  // width: 316px;
+  flex-shrink: 0;
   color: #FFF;
 
   font-family: "Titillium Web";

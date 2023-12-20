@@ -37,7 +37,7 @@
         position: relative;
 
 
-        &::before {
+        &::after {
           content: ''; /* Required for the pseudo-element */
           // position: absolute;
           // bottom: 0;
@@ -75,14 +75,28 @@
           }
 
           .is-open {
-            align-self: center;
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 33.8px;
+            // align-self: center;
+            // font-weight: bold;
+            // font-size: 30px;
+            // line-height: 33.8px;
 
             -webkit-user-select: none;
             -ms-user-select: none;
             user-select: none;
+
+            .close {
+              width: 24px;
+              height: 24px;
+              background: white;
+              background-image: url("./../../assets/img/questions/close-icon.svg");
+              // opacity: 0.5;
+            }
+
+            .open {
+              width: 24px;
+              height: 24px;
+              background-image: url("./../../assets/img/questions/open-icon.svg");
+            }
           }
 
           // &::after {

@@ -15,13 +15,14 @@ const About = () => {
             <span className="info-top-highlight-two"> 20-30</span> хв. Після оплати ми надсилаємо Вам посилання на запис занять.</p>
         </div>
         <div className="info-bottom-box">
-          <p className="info-bottom">Чек листи та шаблони заяв та скарг у подарунок.
+          <p className="info-bottom">Чек листи та шаблони заяв та скарг у подарунок. <br />
           Знижка 50 % на консультацію адвоката.</p>
         </div>
       </div>
-      <div className="about-form-box">
-        <MailForm />
-      </div>
+      <MailForm />
+      {/* <div className="about-form-box">
+      </div> */}
+
       {/* <div className="about-form-container">
         <div className="about-form-title">
           <div className="about-title">

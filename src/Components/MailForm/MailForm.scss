@@ -1,11 +1,12 @@
 @import './../../style/index.scss';
 
 .form-container {
-  width: auto;
+  width: 50%;
   background: $bg-young-night;
   background-size: cover;
   padding: 32px 0 32px 0;
   border: none;
+  flex-shrink: 0;
   
   .form-box {
     display: flex;

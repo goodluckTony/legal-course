@@ -11,7 +11,7 @@
     position: relative;
     z-index: 1;
     width: 100%;
-    gap: 40px;
+    // gap: 40px;
     
     .top-title {
       width: 50%;
@@ -47,6 +47,8 @@
         flex-direction: column;
         margin: 180px 0 250px 150px;
         gap: 35px;
+        // padding-right: 40px;
+        margin-right: 40px;
 
         .top-heading {
           font-family: 'Oswald', sans-serif;
@@ -62,6 +64,7 @@
 
         .top-info {
           margin-top: 35px;
+          // margin-right: 50px;
 
           .top-info-text {
             font-family: 'Titillium Web', sans-serif;
@@ -79,6 +82,7 @@
       background: url("./../../assets/img/header/Military.png"), no-repeat;
       background-size: cover;
       background-repeat: no-repeat;
+      background-position: 50% 50%;
 
         .bg-military {
         }
@@ -105,7 +109,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        flex-shrink: 1;
+        // flex-shrink: 1;
         
         .bottom-info-box {
           width: 100%;
@@ -152,6 +156,7 @@
   
       .bottom-timer-container {
         display: flex;
+        flex-shrink: 0;
         
         .bottom-timer {
         }

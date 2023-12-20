@@ -1,6 +1,10 @@
+import Timer from "../Timer";
 import "./MailForm.scss";
 
 const MailForm = () => {
+  const start = 9;
+  const startTime = new Date().getTime() + start * 60 * 60 * 1000;
+
   return (
     <div className="form-container">
       <div className="form-box">
@@ -16,9 +20,10 @@ const MailForm = () => {
             <p>375 грн.</p>
             <p>1500 грн.</p>
           </div>
-          <div className="timer">
+          {/* <div className="timer">
             <p>00 : 00 : 00 : 00</p>
-          </div>
+          </div> */}
+          <Timer startTime={startTime}/>
         </div>
         <div className="bottom-box">
           <form className="form" style={{display: 'flex', flexDirection: 'column'}} action="" method="post">

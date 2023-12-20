@@ -16,7 +16,7 @@ const AccordionSection = ({
       <div className="question-box" onClick={toggleSection}>
         <div className="question-section">
           <div className="name">{section.question}</div>
-          <div className="is-open">{isActiveSection ? "-" : "+"}</div>
+          <div className="is-open">{isActiveSection ? <div className="close"></div> : <div className="open"></div> }</div>
         </div>
         {isActiveSection && (
           <div className="answer">{section.answer}</div>

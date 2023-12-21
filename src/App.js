@@ -11,6 +11,11 @@ import News from "./Components/News";
 import Questions from "./Components/Questions";
 import Footer from "./Components/Footer";
 
+import SafetyDataTrans from "./pages/safety-data-trans";
+import MoneyBack from "./pages/money-back";
+import Privacy from "./pages/privacy";
+import PublicContract from "./pages/public-contract";
+
 // import MailForm from "./Components/MailForm";
 
 // import Timer from "./Components/Timer";
@@ -34,6 +39,10 @@ function App() {
       <Questions />
       {/* <MailForm/> */}
       <Footer/>
+      <SafetyDataTrans />
+      <MoneyBack />
+      <Privacy />
+      <PublicContract />
       {/* <Timer startTime={startTime} startFrom="seconds" /> */}
     </div>
   );

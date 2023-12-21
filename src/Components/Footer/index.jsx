@@ -14,7 +14,10 @@ const Footer = () => {
       <div className="bottom-container">
         <div className="bottom-box">
           <div className="left-box">
-            <p>Policy Privacy</p>
+            <p>Safety data transfer</p>
+            <p>Money back</p>
+            <p>Privacy</p>
+            <p>Public contract</p>
           </div>
           <div className="middle-box">
             <p>Copyright 2023</p>

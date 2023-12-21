@@ -1,13 +1,21 @@
 @import './../../style/index.scss';
 
-.countdown-timer {
-  // width: 316px;
-  flex-shrink: 0;
-  color: #FFF;
+.banner-timer {
+  color: $font-white;
 
-  font-family: "Titillium Web";
+  font-family: $family-titillium-web;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%;
+  line-height: 62.4px;
+}
+
+.mail-timer {
+  color: $font-renga-brick;
+
+  font-family: $family-titillium-web;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
 }

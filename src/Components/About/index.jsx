@@ -2,6 +2,16 @@ import "./About.scss";
 import MailForm from "../MailForm";
 
 const About = () => {
+  const customMailTimerStyle = {
+    color: "#B44F2E",
+
+    fontFamily: "Titillium Web",
+    fontSize: "40px",
+    fontStyle: "normal",
+    fontWeight: "700",
+    lineHeight: "52px",
+  };
+
   return (
     <div className="about-container container">
       <div className="about-info">
@@ -19,7 +29,7 @@ const About = () => {
           Знижка 50 % на консультацію адвоката.</p>
         </div>
       </div>
-      <MailForm />
+      <MailForm mailTimer={customMailTimerStyle} />
       {/* <div className="about-form-box">
       </div> */}
 

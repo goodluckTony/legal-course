@@ -7,6 +7,17 @@ const Header = () => {
   const start = 9;
   const startTime = new Date().getTime() + start * 60 * 60 * 1000;
 
+  // const customBannerTimerStyle = {
+  //   ".banner-timer": {
+  //     color: "#FFF",
+  //     fontFamily: "Titillium Web",
+  //     fontSize: "48px",
+  //     fontStyle: "normal",
+  //     fontWeight: "700",
+  //     lineHeight: "62.4px",
+  //   },
+  // };
+
   return (
     <div className="header-container container">
       <div className="top">
@@ -57,7 +68,7 @@ const Header = () => {
           </div>
           <div className="bottom-timer-container">
             {/* <p className="bottom-timer">00 : 00 : 00 : 00</p> */}
-            <Timer startTime={startTime} />
+            <Timer startTime={startTime} bannerTimerStyles="banner-timer"/>
           </div>
         </div>
       </div>

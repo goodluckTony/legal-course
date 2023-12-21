@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./Timer.scss";
 
-const Timer = ({ startTime }) => {
+const Timer = ({ startTime, bannerTimerStyles, mailTimerStyles }) => {
+  // const classNames = `${customClassName ? customClassName : ''}`;
+  const classNames = `${bannerTimerStyles} ${mailTimerStyles}`;
+
   const calculateTimeLeft = () => {
     const difference = startTime - new Date().getTime();
     let timeLeft = {};
@@ -38,7 +41,7 @@ const Timer = ({ startTime }) => {
   const countdownFinished = Object.keys(timeLeft).length === 0;
 
   return (
-    <div className="countdown-timer">
+    <div className={classNames} >
       {countdownFinished ? "00 : 00 : 00 : 00"
         : `${formatTime(days)} : ${formatTime(hours)} : ${formatTime(minutes)} : ${formatTime(seconds)}`}
     </div>

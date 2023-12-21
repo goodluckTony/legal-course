@@ -23,7 +23,7 @@ const MailForm = () => {
           {/* <div className="timer">
             <p>00 : 00 : 00 : 00</p>
           </div> */}
-          <Timer startTime={startTime}/>
+          <Timer startTime={startTime} mailTimerStyles="mail-timer" />
         </div>
         <div className="bottom-box">
           <form className="form" style={{display: 'flex', flexDirection: 'column'}} action="" method="post">

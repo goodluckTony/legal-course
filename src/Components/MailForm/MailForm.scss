@@ -12,7 +12,7 @@
     display: flex;
     padding: 32px;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     gap: 10px;
 
     .top-box {
@@ -21,10 +21,11 @@
       height: 347px;
       flex-direction: column;
       align-items: flex-start;
-      gap: 16px;
+      gap: 20px;
       flex: 1 0 0;
       
       .form-title {
+        align-self: stretch;
 
         p {
           color: $font-white;
@@ -38,7 +39,7 @@
         h2 {
           margin-top: 16px;
           color: $font-white;
-          font-family: $family-titillium-web;
+          font-family: $family-oswald;
           font-size: 30px;
           font-style: normal;
           font-weight: 500;
@@ -47,6 +48,7 @@
       }
 
       .text {
+        align-self: stretch;
 
         p {
           color: $font-white;
@@ -107,6 +109,7 @@
           align-items: flex-start;
           align-self: stretch;
           // border: none;
+          border: none;
           border-bottom: 1.337px solid $bg-tiger-lily;
           background: $font-white;
 
@@ -117,11 +120,15 @@
           font-weight: 400;
           line-height: normal;
         }
+        .form-input:first-child  {
+          margin-top: 0;
+        }
 
         .form-message {
           height: 83.565px;
           margin: 6.685px 0px 2.006px 0px;
           align-self: stretch;
+          border: none;
           border-bottom: 1.337px solid $bg-tiger-lily;
           background: $bg-white;
           resize: none;

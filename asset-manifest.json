@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/legal-course/static/css/main.e4c70ff7.css",
-    "main.js": "/legal-course/static/js/main.42e682f6.js",
+    "main.css": "/legal-course/static/css/main.8716ba32.css",
+    "main.js": "/legal-course/static/js/main.2e5648ac.js",
     "static/media/news-img.svg": "/legal-course/static/media/news-img.6245cf23f2fdc47d65ee.svg",
     "static/media/svg-3.svg": "/legal-course/static/media/svg-3.f3b5a2822d787fe13a2d.svg",
     "static/media/judges-gavel.png": "/legal-course/static/media/judges-gavel.ffc47df15842eb3b7850.png",
@@ -25,11 +25,11 @@
     "static/media/open-icon.svg": "/legal-course/static/media/open-icon.7124060b8cf4b50234c8.svg",
     "static/media/facebook-icon.svg": "/legal-course/static/media/facebook-icon.a57eb6ca68826b5b2fed.svg",
     "index.html": "/legal-course/index.html",
-    "main.e4c70ff7.css.map": "/legal-course/static/css/main.e4c70ff7.css.map",
-    "main.42e682f6.js.map": "/legal-course/static/js/main.42e682f6.js.map"
+    "main.8716ba32.css.map": "/legal-course/static/css/main.8716ba32.css.map",
+    "main.2e5648ac.js.map": "/legal-course/static/js/main.2e5648ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4c70ff7.css",
-    "static/js/main.42e682f6.js"
+    "static/css/main.8716ba32.css",
+    "static/js/main.2e5648ac.js"
   ]
 }

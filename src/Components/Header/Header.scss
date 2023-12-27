@@ -277,6 +277,11 @@
 
 @media (max-width: 1024px) {
   .header-container {
+    background: url("./../../assets/img/header/Military.png"), no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    // opacity: ;
 
     .top {
       width: 100%;
@@ -326,7 +331,7 @@
       }
   
       .top-bg {
-        display: none;
+        // display: none;
   
         .bg-military {
         }

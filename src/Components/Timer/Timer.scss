@@ -19,3 +19,26 @@
   font-weight: 700;
   line-height: 52px;
 }
+
+@media (max-width: 1440px) {
+  .banner-timer {
+  }
+  .mail-timer {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1024px) {
+  .banner-timer {
+    font-size: 40px;
+  }
+  .mail-timer {
+    font-size: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .banner-timer {
+  }
+  .mail-timer {
+    font-size: 48px;
+  }
+}

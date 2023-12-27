@@ -105,3 +105,140 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .course-container {
+
+    .box {
+      margin: 80px 110px;
+      
+  
+      .title {
+  
+        .vertical-line {
+        }
+  
+        .text-box {
+  
+          h2 {
+          }
+  
+          p {
+          }
+        }
+      }
+  
+      .list {
+        gap: 50;
+  
+        .item-box {
+  
+          .counting-box {
+  
+            .count {
+            }
+          }
+  
+          .text {
+  
+            h3 {
+            }
+  
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .course-container {
+    
+    .box {
+      margin: 70px 100px;
+  
+      .title {
+  
+        .vertical-line {
+        }
+  
+        .text-box {
+  
+          h2 {
+          }
+  
+          p {
+          }
+        }
+      }
+  
+      .list {
+        gap: 45px;
+  
+        .item-box {
+  
+          .counting-box {
+  
+            .count {
+            }
+          }
+  
+          .text {
+  
+            h3 {
+            }
+  
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .course-container {
+    
+    .box {
+      margin: 70px 50px;
+  
+      .title {
+  
+        .vertical-line {
+        }
+  
+        .text-box {
+  
+          h2 {
+            font-size: 30px;
+          }
+  
+          p {
+          }
+        }
+      }
+  
+      .list {
+  
+        .item-box {
+  
+          .counting-box {
+  
+            .count {
+            }
+          }
+  
+          .text {
+  
+            h3 {
+            }
+  
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}

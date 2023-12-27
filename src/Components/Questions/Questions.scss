@@ -163,3 +163,158 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .questions-container {
+
+    .title-box {
+      padding: 30px 110px;
+  
+      .title {
+  
+        .vertical-line {
+        }
+  
+        h2 {
+        }
+      }
+    }
+  
+    .accordion-container {
+      margin: 45px 110px 100px;
+  
+      .accordion-box {
+  
+        .question-box {
+  
+          &::after {
+          }
+  
+          .question-section {
+  
+            .name {
+            }
+  
+            .is-open {
+  
+              .close {
+              }
+  
+              .open {
+              }
+            }
+          }
+  
+          .answer {
+          }
+  
+          .horizontal-line {
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .questions-container {
+
+    .title-box {
+      padding: 30px 100px;
+  
+      .title {
+  
+        .vertical-line {
+        }
+  
+        h2 {
+        }
+      }
+    }
+  
+    .accordion-container {
+      margin: 40px 100px 90px;
+  
+      .accordion-box {
+  
+        .question-box {
+  
+          &::after {
+          }
+  
+          .question-section {
+  
+            .name {
+            }
+  
+            .is-open {
+  
+              .close {
+              }
+  
+              .open {
+              }
+            }
+          }
+  
+          .answer {
+          }
+  
+          .horizontal-line {
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .questions-container {
+
+    .title-box {
+      padding: 30px 50px;
+  
+      .title {
+  
+        .vertical-line {
+        }
+  
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+  
+    .accordion-container {
+      margin: 30px 50px 70px;
+  
+      .accordion-box {
+  
+        .question-box {
+  
+          &::after {
+          }
+  
+          .question-section {
+  
+            .name {
+            }
+  
+            .is-open {
+  
+              .close {
+              }
+  
+              .open {
+              }
+            }
+          }
+  
+          .answer {
+          }
+  
+          .horizontal-line {
+          }
+        }
+      }
+    }
+  }
+}

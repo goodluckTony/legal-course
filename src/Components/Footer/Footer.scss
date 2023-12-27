@@ -33,6 +33,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 140%; /* 25.2px */
+        text-align: justify;
       }
     }
   }
@@ -113,6 +114,174 @@
           line-height: 140%; /* 21px */
           opacity: 0.45;
           text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .footer-container {
+  
+    .top-container {
+  
+      .title-box {
+        margin: 120px 110px 110px 110px;
+
+  
+        h2 {
+        }
+  
+        p {
+        }
+      }
+    }
+  
+    .bottom-container {
+      padding: 70px 110px 30px 110px;
+  
+      .bottom-box {
+        
+        .left-box {
+  
+          p {
+          }
+        }
+  
+        .middle-box {
+  
+          p {
+          }
+        }
+  
+        .right-box {
+  
+          .svg-box {
+  
+            .telegram-svg {
+            }
+  
+            .viber-svg {
+            }
+  
+            .fb-svg {
+            }
+          }
+  
+          .mail {
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .footer-container {
+    background-size: cover;
+    background-position: 50% 50%;
+  
+    .top-container {
+      flex-direction: column;
+  
+      .title-box {
+        margin: 110px 100px 100px 100px;
+  
+        h2 {
+        }
+  
+        p {
+        }
+      }
+    }
+  
+    .bottom-container {
+      padding: 65px 100px 30px 100px;
+  
+      .bottom-box {
+        
+        .left-box {
+  
+          p {
+          }
+        }
+  
+        .middle-box {
+  
+          p {
+          }
+        }
+  
+        .right-box {
+  
+          .svg-box {
+  
+            .telegram-svg {
+            }
+  
+            .viber-svg {
+            }
+  
+            .fb-svg {
+            }
+          }
+  
+          .mail {
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer-container {
+  
+    .top-container {
+      flex-direction: column-reverse;
+  
+      .title-box {
+        margin: 100px 50px 90px 50px;
+  
+        h2 {
+        }
+  
+        p {
+        }
+      }
+    }
+  
+    .bottom-container {
+      padding: 60px 50px 25px 50px;
+  
+      .bottom-box {
+        
+        .left-box {
+  
+          p {
+          }
+        }
+  
+        .middle-box {
+  
+          p {
+          }
+        }
+  
+        .right-box {
+  
+          .svg-box {
+  
+            .telegram-svg {
+            }
+  
+            .viber-svg {
+            }
+  
+            .fb-svg {
+            }
+          }
+  
+          .mail {
+          }
         }
       }
     }

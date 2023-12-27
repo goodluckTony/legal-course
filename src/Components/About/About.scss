@@ -1,8 +1,10 @@
 @import './../../style/index.scss';
+@import "./../../style/mixins.scss";
 
 .about-container {
   width: 100%;
   display: flex;
+  // flex-direction: column;
   // justify-content: center;
   // align-items: center;
   // background-image: url('./../../assets/img/about/Military-formation.png');
@@ -15,10 +17,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    margin: 114px 163px 114px 150px;
-    // padding-right: 50px;
     margin: 114px 150px;
+    // margin: 10px;
+    
+    // @include onDesktop {
+    //   margin: 10px;
+    // }
 
     .info-title-box {
       display: flex;
@@ -164,96 +168,236 @@
         line-height: 52px;
 
         p {
+          font-size: 100px;
         }
       }
     }
 
     .about-form-box {
-      // width: 50%;
-      background-color: $bg-young-night;
-      background-size: contain;
-      background-repeat: no-repeat;
-      // height: auto;
-            // display: flex;
-      // flex-direction: column;
-      // align-items: flex-start;
-      // gap: 5px;
-      // flex-shrink: 0;
     }
-
-    // .about-form-box {
-    //   display: flex;
-    //   flex-direction: column;
-    //   align-items: flex-start;
-    //   gap: 5px;
-    //   flex-shrink: 0;
-
-    //   .about-form {
-
-    //     .form-input {
-    //       display: flex;
-    //       margin-bottom: 6.69px;
-    //       padding-bottom: 2.006px;
-    //       flex-direction: column;
-    //       justify-content: center;
-    //       align-items: flex-start;
-    //       align-self: stretch;
-
-    //       padding: 13.37px 13.37px 14.707px 13.37px;
-
-    //       border-bottom: 1.337px solid $bg-tiger-lily;
-    //       background: $bg-white;
-
-    //       font-family: $family-nurito-sans;
-    //     }
-
-    //     .form-message {
-    //       display: flex;
-    //       height: 83.565px;
-    //       padding: 6.685px 0px 2.006px 0px;
-    //       flex-direction: column;
-    //       justify-content: center;
-    //       align-items: flex-start;
-    //       align-self: stretch;
-    //       resize: none;
-
-    //       border-bottom: 1.337px solid $bg-tiger-lily;
-    //       background: $bg-white;
-
-    //       margin-bottom: 6.69px;
-    //     }
-
-    //     .form-btn {
-    //       display: flex;
-    //       padding: 16.713px 131.9px 16.713px 132.165px;
-    //       justify-content: center;
-    //       align-items: center;
-    //       align-self: stretch;
-    //       background: $bg-renga-brick;
-
-    //       color: #FFF;
-
-    //       text-align: center;
-    //       font-family: $family-montserrat;
-    //       font-size: 12.033px;
-    //       font-style: normal;
-    //       font-weight: 700;
-    //       line-height: 11.365px;
-    //       text-transform: uppercase;
-    //     }
-    //   }
-    // }
   }
 }
 
-.timer {
+@media (max-width: 1440px) {
+  .about-container {
+  
+    .about-info {
+      margin: 80px 110px;
+  
+      .info-title-box {
+  
+        .info-vertical-line {
+        }
+  
+        .info-title {
+        }
+      }
+  
+      .info-top-box {
 
-  p {
-    color: $font-renga-brick;
-    font-family: $family-titillium-web;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 130%;
+  
+        .info-top {
+  
+          .info-top-highlight-one,
+          .info-top-highlight-two {
+          }
+        }
+      }
+  
+      .info-bottom-box {
+  
+        .info-bottom {
+        }
+      }
+    }
+  
+    .about-form-container {
+  
+      .about-form-title {
+  
+        .about-title {
+  
+          p {
+          }
+  
+          h2 {
+          }
+        }
+  
+        .about-text {
+  
+          p {
+          }
+        }
+  
+        .about-price {
+  
+          p:first-child {
+          }
+  
+          p:last-child {
+          }
+        }
+  
+        .countdown-timer {
+          p {
+          }
+        }
+      }
+  
+      .about-form-box {
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-container {
+    width: 100%;
+    // display: flex;
+    flex-direction: column;
+  
+    .about-info {
+      width: 70%;
+      margin: 70px 100px;
+  
+      .info-title-box {
+  
+        .info-vertical-line {
+        }
+  
+        .info-title {
+        }
+      }
+  
+      .info-top-box {
+
+  
+        .info-top {
+  
+          .info-top-highlight-one,
+          .info-top-highlight-two {
+          }
+        }
+      }
+  
+      .info-bottom-box {
+  
+        .info-bottom {
+        }
+      }
+    }
+  
+    .about-form-container {
+  
+      .about-form-title {
+  
+        .about-title {
+  
+          p {
+          }
+  
+          h2 {
+          }
+        }
+  
+        .about-text {
+  
+          p {
+          }
+        }
+  
+        .about-price {
+  
+          p:first-child {
+          }
+  
+          p:last-child {
+          }
+        }
+  
+        .countdown-timer {
+          p {
+          }
+        }
+      }
+  
+      .about-form-box {
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+  
+    .about-info {
+      margin: 70px 50px;
+  
+      .info-title-box {
+  
+        .info-vertical-line {
+        }
+  
+        .info-title {
+          font-size: 30px;
+        }
+      }
+  
+      .info-top-box {
+
+  
+        .info-top {
+  
+          .info-top-highlight-one,
+          .info-top-highlight-two {
+          }
+        }
+      }
+  
+      .info-bottom-box {
+  
+        .info-bottom {
+        }
+      }
+    }
+  
+    .about-form-container {
+  
+      .about-form-title {
+  
+        .about-title {
+  
+          p {
+          }
+  
+          h2 {
+          }
+        }
+  
+        .about-text {
+  
+          p {
+          }
+        }
+  
+        .about-price {
+  
+          p:first-child {
+          }
+  
+          p:last-child {
+          }
+        }
+  
+        .countdown-timer {
+          p {
+          }
+        }
+      }
+  
+      .about-form-box {
+      }
+    }
   }
 }

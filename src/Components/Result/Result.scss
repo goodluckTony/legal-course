@@ -8,8 +8,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   
-  
-  
   .title-container {
     display: flex;
     align-items: flex-start;
@@ -147,6 +145,135 @@
               font-style: normal;
               font-weight: 300;
               line-height: 29.4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .result-container {
+
+    .title-container {
+      margin: 80px 110px;
+  
+      .title {
+        width: 30%;
+  
+        &::before {
+        }
+        .vertical-line {
+        }
+        
+        h2 {
+          // font-size: 35px;
+        }
+      }
+  
+      .list {
+        width: 70%;
+  
+        .box {
+          
+  
+          .item {
+            
+            &::before {
+              content: "";
+            }
+  
+            .info-box {
+              p {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .result-container {
+
+    .title-container {
+      flex-direction: column;
+      gap: 40px;
+      margin: 70px 100px;
+  
+      .title {
+        width: 100%;
+  
+        &::before {
+        }
+        .vertical-line {
+        }
+        
+        h2 {
+        }
+      }
+  
+      .list {
+        width: 100%;
+  
+        .box {
+          padding: 50px 30px;
+  
+          .item {
+            
+            &::before {
+              content: "";
+            }
+  
+            .info-box {
+              p {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .result-container {
+
+    .title-container {
+
+      margin: 70px 50px;
+  
+      .title {
+  
+        &::before {
+        }
+        .vertical-line {
+        }
+        
+        h2 {
+          font-size: 30px;
+        }
+      }
+  
+      .list {
+  
+        .box {
+          padding: 30px 10px;
+  
+          .item {
+            
+            &::before {
+              content: "";
+            }
+  
+            .info-box {
+              p {
+                text-align: justify;
+                line-height: 25px;
+                font-size: 15px;
+              }
             }
           }
         }

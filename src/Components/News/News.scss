@@ -105,3 +105,116 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .news-container {
+
+    .box {
+      margin: 80px 110px;
+  
+      .img-box {
+      }
+  
+      .info-box {
+  
+        .quote-top {
+          margin-left: 0;
+        }
+  
+        .wrapper {
+  
+          .post-box {
+  
+            .text {
+              text-align: justify;
+            }
+  
+            .news-btn {
+  
+              .fb-svg {
+              }
+            }
+          }
+        }
+  
+        .quote-bottom {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .news-container {
+
+    .box {
+      flex-direction: column-reverse;
+      justify-content: center;
+      margin: 70px 100px;
+
+      .img-box {
+        width: 100%;
+      }
+  
+      .info-box {
+        width: 100%;
+  
+        .quote-top {
+        }
+  
+        .wrapper {
+  
+          .post-box {
+  
+            .text {
+            }
+  
+            .news-btn {
+  
+              .fb-svg {
+              }
+            }
+          }
+        }
+  
+        .quote-bottom {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .news-container {
+
+    .box {
+      margin: 70px 50px;
+
+      .img-box {
+      }
+  
+      .info-box {
+  
+        .quote-top {
+        }
+  
+        .wrapper {
+  
+          .post-box {
+  
+            .text {
+            }
+  
+            .news-btn {
+  
+              .fb-svg {
+              }
+            }
+          }
+        }
+  
+        .quote-bottom {
+        }
+      }
+    }
+  }
+}

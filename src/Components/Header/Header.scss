@@ -1,9 +1,10 @@
 @import './../../style/index.scss';
+// @import "./../../style/mixins.scss";
 
 .header-container {
   background-color: $bg-black;
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   position: relative;
 
   .top {
@@ -15,6 +16,7 @@
     
     .top-title {
       width: 50%;
+      // margin: 40px 0 250px 150px;
 
       .top-title-logo {
         display: flex;
@@ -46,8 +48,9 @@
         display: flex;
         flex-direction: column;
         margin: 180px 0 250px 150px;
+        margin-top: 180px;
         gap: 35px;
-        // padding-right: 40px;
+        padding-right: 40px;
         margin-right: 40px;
 
         .top-heading {
@@ -65,6 +68,7 @@
         .top-info {
           margin-top: 35px;
           // margin-right: 50px;
+          // margin-bottom: 250px;
 
           .top-info-text {
             font-family: 'Titillium Web', sans-serif;
@@ -84,9 +88,14 @@
       background-repeat: no-repeat;
       background-position: 50% 50%;
 
-        .bg-military {
-        }
+      .bg-military {
+        // width: 55%;
+        // background: url("./../../assets/img/header/Military.png"), no-repeat;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-position: 50% 50%;
       }
+    }
   }
 
   .bottom {
@@ -102,6 +111,7 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
+      align-items: center;
       gap: 20px;
       margin: 25px 150px;
 
@@ -165,6 +175,290 @@
   }
 }
 
+@media (max-width: 1440px) {
+  .header-container {
 
+    .top {
+      // margin: 0;
+      // margin-left: 100px;
+      
+      .top-title {
+        // width: 45%;
+        // margin-left: 100px;
+  
+        .top-title-logo {
+          margin-left: 110px;
+  
+          .top-title-logo-box {
+  
+            .logo {}
+          }
+  
+          .top-title-logo-name {
+  
+            .logo-name {
+            }
+          }
+        }
+  
+        .top-title-name {
+          margin-top: 100px;
+          margin-left: 110px;
+  
+          .top-heading {
+            font-size: 60px;
 
+            .top-heading-highlight {
+            }
+          }
+  
+          .top-info {
+  
+            .top-info-text {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+  
+      .top-bg {
+        // width: 55%;
+        // background-size: cover;
+        // height: 100%;
+  
+        .bg-military {
+        }
+      }
+    }
+  
+    .bottom {
+  
+      .bottom-text-box {
+        margin: 25px 110px;
 
+  
+        .bottom-info {
+          
+          .bottom-info-box {
+    
+            .bottom-info-text {
+              font-size: 18px;
+            }
+          }
+    
+          .bottom-price {
+    
+            .bottom-price-after {
+    
+              .price-after {
+              }
+            }
+    
+            .bottom-price-before {
+    
+              .price-before {
+              }
+            }
+          }
+        }
+    
+        .bottom-timer-container {
+          // font-size: 20px;
+          // width: 50px;
+
+          .bottom-timer {
+            // font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-container {
+
+    .top {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+      .top-title {
+        width: 100%;
+  
+        .top-title-logo {
+          margin-left: 100px;
+          margin-right: 100px;
+  
+          .top-title-logo-box {
+  
+            .logo {}
+          }
+  
+          .top-title-logo-name {
+  
+            .logo-name {
+            }
+          }
+        }
+  
+        .top-title-name {
+          margin-top: 100px;
+          margin-left: 100px;
+          margin-right: 100px;
+          padding-right: 0;
+
+  
+          .top-heading {
+            font-size: 60px;
+
+  
+            .top-heading-highlight {
+            }
+          }
+  
+          .top-info {
+  
+            .top-info-text {
+            }
+          }
+        }
+      }
+  
+      .top-bg {
+        display: none;
+  
+        .bg-military {
+        }
+      }
+    }
+  
+    .bottom {
+  
+      .bottom-text-box {
+        flex-direction: column;
+        margin: 25px 100px;
+  
+        .bottom-info {
+          justify-content: space-between;
+          
+          .bottom-info-box {
+    
+            .bottom-info-text {
+            }
+          }
+    
+          .bottom-price {
+    
+            .bottom-price-after {
+    
+              .price-after {
+              }
+            }
+    
+            .bottom-price-before {
+    
+              .price-before {
+              }
+            }
+          }
+        }
+    
+        .bottom-timer-container {
+          
+          .bottom-timer {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+
+    .top {
+      
+      .top-title {
+  
+        .top-title-logo {
+          margin-left: 50px;
+  
+          .top-title-logo-box {
+  
+            .logo {}
+          }
+  
+          .top-title-logo-name {
+  
+            .logo-name {
+            }
+          }
+        }
+  
+        .top-title-name {
+          margin-bottom: 400px;
+          margin-top: 70px;
+          margin-left: 50px;
+  
+          .top-heading {
+  
+            .top-heading-highlight {
+            }
+          }
+  
+          .top-info {
+  
+            .top-info-text {
+            }
+          }
+        }
+      }
+  
+      .top-bg {
+  
+        .bg-military {
+        }
+      }
+    }
+  
+    .bottom {
+  
+      .bottom-text-box {
+        margin: 25px 50px;
+  
+        .bottom-info {
+          flex-direction: column;
+          
+          .bottom-info-box {
+    
+            .bottom-info-text {
+              text-align:justify;
+            }
+          }
+    
+          .bottom-price {
+    
+            .bottom-price-after {
+    
+              .price-after {
+              }
+            }
+    
+            .bottom-price-before {
+    
+              .price-before {
+              }
+            }
+          }
+        }
+    
+        .bottom-timer-container {
+          
+          .bottom-timer {
+          }
+        }
+      }
+    }
+  }
+}

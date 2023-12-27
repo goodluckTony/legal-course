@@ -1,5 +1,9 @@
+
 import "./Footer.scss";
 import MailForm from "./../MailForm";
+import { Routes, Route, Link, NavLink } from "react-router-dom";
+
+import SafetyDataTrans from "../../pages/safety-data-trans";
 
 const Footer = () => {
   return (
@@ -14,11 +18,14 @@ const Footer = () => {
       <div className="bottom-container">
         <div className="bottom-box">
           <div className="left-box">
-            <p>Safety data transfer</p>
+            <NavLink to="/legal-course/safety-data-transfer">Safety data transfer</NavLink>
             <p>Money back</p>
             <p>Privacy</p>
             <p>Public contract</p>
           </div>
+          <Routes>
+            <Route path="/legal-course/safety-data-transfer" Component={SafetyDataTrans}/>
+          </Routes>
           <div className="middle-box">
             <p>Copyright 2023</p>
           </div>

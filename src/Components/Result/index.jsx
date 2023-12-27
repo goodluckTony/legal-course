@@ -6,7 +6,7 @@ const Result = () => {
       <div className="title-container">
         <div className="title">
           {/* <div className="vertical-line"></div> */}
-          <h2>Результати після <br />проходження курсу</h2>
+          <h2>Результати після проходження курсу</h2>
         </div>
         <div className="list">
           <div className="box">

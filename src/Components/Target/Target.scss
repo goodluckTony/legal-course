@@ -248,3 +248,317 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .target-container {
+    
+    .target-box {
+      padding: 80px 110px;
+  
+      .target-title {
+    
+        h2 {
+          font-size: 50px;
+    
+          span {
+            // font-size: 50px;
+            font-weight: 600;
+          }
+        }
+      }
+    
+      .target-list-box {
+        gap: 50px;
+    
+        .scales-item {
+    
+          .scales-svg-box {
+            
+            .scales-svg {
+            }
+          }
+    
+          .scales-text {
+            h3 {
+            }
+    
+            p {
+              text-align: justify;
+            }
+          }
+        }
+    
+        .gavel-item {
+    
+          .gavel-svg-box {
+            
+            .gavel-svg {
+            }
+          }
+    
+          .gavel-text {
+            h3 {
+            }
+    
+            p {
+              text-align: justify;
+            }
+          }
+        }
+    
+        .military-item {
+    
+          .military-svg-box {
+            
+            .military-svg {
+            }
+          }
+    
+          .military-text {
+            h3 {
+            }
+    
+            p {
+              text-align: justify;
+            }
+          }
+        }
+    
+        .family-item {
+    
+          .family-svg-box {
+            
+            .family-svg {
+            }
+          }
+    
+          .family-text {
+            h3 {
+            }
+    
+            p {
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .target-container {
+    
+    .target-box {
+      flex-direction: column;
+      gap: 40px;
+      padding: 70px 100px;
+  
+      .target-title {
+        width: 100%;
+    
+        h2 {
+          font-size: 45px;
+    
+          span {
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 50px;
+          }
+        }
+      }
+    
+      .target-list-box {
+        width: 100%;
+    
+        .scales-item {
+    
+          .scales-svg-box {
+            
+            .scales-svg {
+            }
+          }
+    
+          .scales-text {
+            h3 {
+            }
+    
+            p {
+            }
+          }
+        }
+    
+        .gavel-item {
+    
+          .gavel-svg-box {
+            
+            .gavel-svg {
+            }
+          }
+    
+          .gavel-text {
+            h3 {
+            }
+    
+            p {
+            }
+          }
+        }
+    
+        .military-item {
+    
+          .military-svg-box {
+            
+            .military-svg {
+            }
+          }
+    
+          .military-text {
+            h3 {
+            }
+    
+            p {
+            }
+          }
+        }
+    
+        .family-item {
+    
+          .family-svg-box {
+            
+            .family-svg {
+            }
+          }
+    
+          .family-text {
+            h3 {
+            }
+    
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .target-container {
+    
+    .target-box {
+      padding: 50px 50px;
+  
+      .target-title {
+    
+        h2 {
+          font-size: 30px;
+          line-height: 50px;
+    
+          span {
+            font-size: 30px;
+            // line-height: 50px;
+          }
+        }
+      }
+    
+      .target-list-box {
+    
+        .scales-item {
+          display: flex;
+          flex-direction: column;
+    
+          .scales-svg-box {
+            
+            .scales-svg {
+            }
+          }
+    
+          .scales-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+            }
+    
+            p {
+              text-align: justify;
+            }
+          }
+        }
+    
+        .gavel-item {
+          display: flex;
+          flex-direction: column;
+    
+          .gavel-svg-box {
+            
+            .gavel-svg {
+            }
+          }
+    
+          .gavel-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+            }
+    
+            p {
+              text-align: justify;
+            }
+          }
+        }
+    
+        .military-item {
+          display: flex;
+          flex-direction: column;
+    
+          .military-svg-box {
+            
+            .military-svg {
+            }
+          }
+    
+          .military-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+            }
+    
+            p {
+              text-align: justify;
+            }
+          }
+        }
+    
+        .family-item {
+          display: flex;
+          flex-direction: column;
+    
+          .family-svg-box {
+            
+            .family-svg {
+            }
+          }
+    
+          .family-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h3 {
+            }
+    
+            p {
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+}

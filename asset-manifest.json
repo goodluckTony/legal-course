@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/legal-course/static/css/main.e57d7e86.css",
+    "main.css": "/legal-course/static/css/main.2fc7f3c3.css",
     "main.js": "/legal-course/static/js/main.238460f4.js",
     "static/media/news-img.svg": "/legal-course/static/media/news-img.6245cf23f2fdc47d65ee.svg",
     "static/media/svg-3.svg": "/legal-course/static/media/svg-3.f3b5a2822d787fe13a2d.svg",
@@ -27,11 +27,11 @@
     "static/media/facebook-icon.svg": "/legal-course/static/media/facebook-icon.a57eb6ca68826b5b2fed.svg",
     "static/media/slash-icon.svg": "/legal-course/static/media/slash-icon.45e3a4768b9c92c59cfa.svg",
     "index.html": "/legal-course/index.html",
-    "main.e57d7e86.css.map": "/legal-course/static/css/main.e57d7e86.css.map",
+    "main.2fc7f3c3.css.map": "/legal-course/static/css/main.2fc7f3c3.css.map",
     "main.238460f4.js.map": "/legal-course/static/js/main.238460f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e57d7e86.css",
+    "static/css/main.2fc7f3c3.css",
     "static/js/main.238460f4.js"
   ]
 }

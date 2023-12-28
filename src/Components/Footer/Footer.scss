@@ -65,23 +65,24 @@
         }
       }
 
-      .middle-box {
-
-        p {
-          color: $font-white;
-          font-family: $family-titillium-web;
-          font-size: 15px;
-          font-style: normal;
-          font-weight: 300;
-          line-height: 140%; /* 21px */
-          opacity: 0.45;
-        }
-      }
-
+      
       .right-box {
         display: flex;
         flex-direction: column;
         gap: 15px;
+
+        .middle-box {
+  
+          p {
+            color: $font-white;
+            font-family: $family-titillium-web;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 140%; /* 21px */
+            opacity: 0.45;
+          }
+        }
 
         .svg-box {
           display: flex;
@@ -152,13 +153,14 @@
           }
         }
   
-        .middle-box {
-  
-          p {
-          }
-        }
-  
+        
         .right-box {
+
+          .middle-box {
+    
+            p {
+            }
+          }
   
           .svg-box {
   
@@ -209,13 +211,14 @@
           }
         }
   
-        .middle-box {
-  
-          p {
-          }
-        }
-  
+        
         .right-box {
+
+          .middle-box {
+    
+            p {
+            }
+          }
   
           .svg-box {
   
@@ -243,7 +246,7 @@
       flex-direction: column-reverse;
   
       .title-box {
-        margin: 100px 50px 90px 50px;
+        margin: 70px 20px 70px 20px;
   
         h2 {
         }
@@ -254,7 +257,7 @@
     }
   
     .bottom-container {
-      padding: 50px 15px 20px 15px;
+      padding: 40px 20px 20px 20px;
   
       .bottom-box {
         
@@ -273,7 +276,7 @@
     
             p {
               font-size: 10px;
-              text-align: center;
+              text-align:right;
             }
           }
           .svg-box {

@@ -122,7 +122,7 @@
         // flex-shrink: 1;
         
         .bottom-info-box {
-          width: 65%;
+          // width: 65%;
   
           .bottom-info-text {
             font-family: 'Titillium Web', sans-serif;
@@ -387,7 +387,7 @@
       .top-title {
   
         .top-title-logo {
-          margin-left: 50px;
+          margin-left: 20px;
   
           .top-title-logo-box {
   
@@ -404,7 +404,9 @@
         .top-title-name {
           margin-bottom: 400px;
           margin-top: 70px;
-          margin-left: 50px;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding: 0;
   
           .top-heading {
   
@@ -430,7 +432,7 @@
     .bottom {
   
       .bottom-text-box {
-        margin: 25px 50px;
+        margin: 25px 20px;
   
         .bottom-info {
           flex-direction: column;

@@ -189,10 +189,12 @@
   .news-container {
 
     .box {
-      margin: 70px 50px;
+      margin: 40px 20px;
 
       .img-box {
         height: 300px;
+        background-size: cover;
+        background-position: 50% 70%;
       }
   
       .info-box {

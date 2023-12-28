@@ -30,13 +30,14 @@
       .info-vertical-line {
         border-left: 4px solid $bg-renga-brick;
         display: flex;
-        padding-left: 24px;
+        // padding-left: 24px;
         flex-direction: column;
         align-items: flex-start;
       }
 
       .info-title {
-        padding-top: 5px;
+        margin-left: 24px;
+        // padding-top: 5px;
         color: $font-haiti;
         font-family: $family-titillium-web;
         font-size: 36px;
@@ -78,104 +79,104 @@
     }
   }
 
-  .about-form-container {
-    background-color: $bg-young-night;
+  // .about-form-container {
+  //   background-color: $bg-young-night;
 
-    display: flex;
-    // width: 720px;
-    // height: 495px;
-    width: 50%;
-    height: 100%;
+  //   display: flex;
+  //   // width: 720px;
+  //   // height: 495px;
+  //   width: 50%;
+  //   height: 100%;
 
-    // padding: 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
+  //   // padding: 32px;
+  //   justify-content: center;
+  //   align-items: center;
+  //   gap: 10px;
+  //   flex-shrink: 0;
 
-    .about-form-title {
-      display: flex;
-      width: 260px;
-      height: 347px;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 16px;
-      flex: 1 0 0;
+  //   .about-form-title {
+  //     display: flex;
+  //     width: 260px;
+  //     height: 347px;
+  //     flex-direction: column;
+  //     align-items: flex-start;
+  //     gap: 16px;
+  //     flex: 1 0 0;
 
-      .about-title {
+  //     .about-title {
 
-        p {
-          color: $font-white;
-          font-family: $family-titillium-web;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 600;
-          line-height: 18px;
-        }
+  //       p {
+  //         color: $font-white;
+  //         font-family: $family-titillium-web;
+  //         font-size: 18px;
+  //         font-style: normal;
+  //         font-weight: 600;
+  //         line-height: 18px;
+  //       }
 
-        h2 {
-          margin-top: 20px;
-          color: $font-white;
-          color: #FFF;
-          font-family: $family-oswald;
-          font-size: 30px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: 100%;
-        }
-      }
+  //       h2 {
+  //         margin-top: 20px;
+  //         color: $font-white;
+  //         color: #FFF;
+  //         font-family: $family-oswald;
+  //         font-size: 30px;
+  //         font-style: normal;
+  //         font-weight: 500;
+  //         line-height: 100%;
+  //       }
+  //     }
 
-      .about-text {
+  //     .about-text {
 
-        p {
-          color: $font-white;
-          font-family: $family-titillium-web;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 600;
-          line-height: 24.3px;
-        }
-      }
+  //       p {
+  //         color: $font-white;
+  //         font-family: $family-titillium-web;
+  //         font-size: 18px;
+  //         font-style: normal;
+  //         font-weight: 600;
+  //         line-height: 24.3px;
+  //       }
+  //     }
 
-      .about-price {
+  //     .about-price {
 
-        p:first-child {
-          color: $bg-renga-brick;
-          font-family: $family-titillium-web;
-          font-size: 32px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 41.6px;
-        }
+  //       p:first-child {
+  //         color: $bg-renga-brick;
+  //         font-family: $family-titillium-web;
+  //         font-size: 32px;
+  //         font-style: normal;
+  //         font-weight: 700;
+  //         line-height: 41.6px;
+  //       }
 
-        p:last-child {
-          color: $font-white;
-          font-family: $family-titillium-web;
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 26px;
-          text-decoration: line-through;
-        }
-      }
+  //       p:last-child {
+  //         color: $font-white;
+  //         font-family: $family-titillium-web;
+  //         font-size: 20px;
+  //         font-style: normal;
+  //         font-weight: 400;
+  //         line-height: 26px;
+  //         text-decoration: line-through;
+  //       }
+  //     }
 
-      .countdown-timer {
-        color: $font-renga-brick;
-        font-family: $family-titillium-web;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 52px;
+  //     .countdown-timer {
+  //       color: $font-renga-brick;
+  //       font-family: $family-titillium-web;
+  //       font-size: 40px;
+  //       font-style: normal;
+  //       font-weight: 700;
+  //       line-height: 52px;
 
-        p {
-          font-size: 100px;
-        }
-      }
-    }
+  //       p {
+  //         font-size: 100px;
+  //       }
+  //     }
+  //   }
 
-    .about-form-box {
-    }
-  }
+  //   .about-form-box {
+  //   }
+  // }
 }
 
 @media (max-width: 1440px) {
@@ -332,7 +333,8 @@
   .about-container {
   
     .about-info {
-      margin: 70px 50px;
+      width: 90%;
+      margin: 40px 20px;
   
       .info-title-box {
   

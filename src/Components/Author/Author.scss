@@ -191,7 +191,7 @@
   .author-container {
   
     .box {
-      margin: 70px 50px;
+      margin: 40px 20px;
   
       .title {
   
@@ -210,6 +210,7 @@
             }
   
             h4 {
+              margin-right: 0;
             }
           }
         }
@@ -224,9 +225,10 @@
       .img-box {
   
         .img {
-          width: 260px;
-          height: auto;
-          background-size: contain;
+          width: 320px;
+          height: 380px;
+          background-size: cover;
+          background-position: 50% 50%;
         }
       }
     }

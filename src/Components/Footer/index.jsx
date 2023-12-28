@@ -58,18 +58,18 @@ const Footer = () => {
               <Route path="/legal-course/public-contract" element={LazyPublicContract}/>
             </Routes>
           </Suspense> */}
-          <div className="middle-box">
-            <p>Copyright 2023</p>
-          </div>
           <div className="right-box">
+            <a className="mail" href="mailto:mlobacov@gmail.com">
+              Loremail@gmail.com
+            </a>
             <div className="svg-box">
               <div className="telegram-svg"></div>
               <div className="viber-svg"></div>
               <div className="fb-svg"></div>
             </div>
-            <a className="mail" href="mailto:mlobacov@gmail.com">
-              Loremail@gmail.com
-            </a>
+          <div className="middle-box">
+            <p>Copyright 2023</p>
+          </div>
           </div>
         </div>
       </div>

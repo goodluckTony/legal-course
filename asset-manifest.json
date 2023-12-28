@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/legal-course/static/css/main.74f05e7f.css",
-    "main.js": "/legal-course/static/js/main.3b8f56e9.js",
+    "main.css": "/legal-course/static/css/main.a537c0af.css",
+    "main.js": "/legal-course/static/js/main.633d695e.js",
     "static/css/3.0fa6ff31.chunk.css": "/legal-course/static/css/3.0fa6ff31.chunk.css",
     "static/js/3.8bfc45f2.chunk.js": "/legal-course/static/js/3.8bfc45f2.chunk.js",
     "static/css/103.0fa6ff31.chunk.css": "/legal-course/static/css/103.0fa6ff31.chunk.css",
@@ -13,9 +13,9 @@
     "static/media/news-img.svg": "/legal-course/static/media/news-img.6245cf23f2fdc47d65ee.svg",
     "static/media/svg-3.svg": "/legal-course/static/media/svg-3.f3b5a2822d787fe13a2d.svg",
     "static/media/judges-gavel.png": "/legal-course/static/media/judges-gavel.ffc47df15842eb3b7850.png",
-    "static/media/footer-gb.svg": "/legal-course/static/media/footer-gb.60af93762b4b1e40b447.svg",
     "static/media/Military.png": "/legal-course/static/media/Military.fdfabf5af3bf8aabbac9.png",
     "static/media/femida.png": "/legal-course/static/media/femida.37fe52c49edd5fbb6c17.png",
+    "static/media/library-bg.png": "/legal-course/static/media/library-bg.092578fcc3b2997f488f.png",
     "static/media/diplomas-bg.png": "/legal-course/static/media/diplomas-bg.f297728fec5771669f25.png",
     "static/media/Military-formation.png": "/legal-course/static/media/Military-formation.efbf48ea6fcd7e85082f.png",
     "static/media/report-bg.png": "/legal-course/static/media/report-bg.09e0c52e201969da7a78.png",
@@ -35,8 +35,8 @@
     "static/media/facebook-icon.svg": "/legal-course/static/media/facebook-icon.a57eb6ca68826b5b2fed.svg",
     "static/media/slash-icon.svg": "/legal-course/static/media/slash-icon.45e3a4768b9c92c59cfa.svg",
     "index.html": "/legal-course/index.html",
-    "main.74f05e7f.css.map": "/legal-course/static/css/main.74f05e7f.css.map",
-    "main.3b8f56e9.js.map": "/legal-course/static/js/main.3b8f56e9.js.map",
+    "main.a537c0af.css.map": "/legal-course/static/css/main.a537c0af.css.map",
+    "main.633d695e.js.map": "/legal-course/static/js/main.633d695e.js.map",
     "3.0fa6ff31.chunk.css.map": "/legal-course/static/css/3.0fa6ff31.chunk.css.map",
     "3.8bfc45f2.chunk.js.map": "/legal-course/static/js/3.8bfc45f2.chunk.js.map",
     "103.0fa6ff31.chunk.css.map": "/legal-course/static/css/103.0fa6ff31.chunk.css.map",
@@ -47,7 +47,7 @@
     "139.2e6159eb.chunk.js.map": "/legal-course/static/js/139.2e6159eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74f05e7f.css",
-    "static/js/main.3b8f56e9.js"
+    "static/css/main.a537c0af.css",
+    "static/js/main.633d695e.js"
   ]
 }

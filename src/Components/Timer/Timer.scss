@@ -7,17 +7,17 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 62.4px;
+  line-height: 130%;
 }
 
 .mail-timer {
-  color: $font-renga-brick;
+  color: $font-white;
 
   font-family: $family-titillium-web;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 135%;
 }
 
 @media (max-width: 1440px) {
@@ -39,6 +39,6 @@
   .banner-timer {
   }
   .mail-timer {
-    font-size: 48px;
+    font-size: 35px;
   }
 }

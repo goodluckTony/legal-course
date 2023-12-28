@@ -25,7 +25,7 @@ const MailForm = () => {
           </div> */}
           <Timer startTime={startTime} mailTimerStyles="mail-timer" />
         </div>
-        <div className="bottom-box">
+        {/* <div className="bottom-box">
           <form className="form" style={{display: 'flex', flexDirection: 'column'}} action="" method="post">
             <input className="form-input" type="text" placeholder="Text" />
             <input className="form-input" type="text" placeholder="Text" />
@@ -34,7 +34,8 @@ const MailForm = () => {
             <textarea className="form-message" name="" id="" cols="30" rows="10" placeholder=""></textarea>
             <input className="form-btn" type="submit" value="Зареєструватися"></input>
           </form>
-        </div>
+        </div> */}
+        <button className="mail-btn">купити курс</button>
       </div>
     </div>
   )

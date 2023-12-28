@@ -1,8 +1,8 @@
 @import './../../style/index.scss';
 
 .footer-container {
-  background: url("./../../assets/img/footer/footer-gb.svg");
-  // background-position: 20% 80%;
+  background: url("./../../assets/img/footer/library-bg.png");
+  background-position: 20% 80%;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -16,25 +16,31 @@
       align-items: center;
       gap: 15px;
       margin: 163px 150px 141px 150px;
-      flex: 1 1;
 
-      h2 {
-      color: $font-white;
-      font-family: $family-titillium-web;
-      font-size: 36px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 140%; /* 50.4px */}
+      
+      background: url("./../../assets/img/footer/library-bg.png");
+      background-position: 50% 80%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      // flex: 1 1;
 
-      p {
-        color: $font-white;
-        font-family: $family-titillium-web;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 140%; /* 25.2px */
-        text-align: justify;
-      }
+      // h2 {
+      // color: $font-white;
+      // font-family: $family-titillium-web;
+      // font-size: 36px;
+      // font-style: normal;
+      // font-weight: 700;
+      // line-height: 140%; /* 50.4px */}
+
+      // p {
+      //   color: $font-white;
+      //   font-family: $family-titillium-web;
+      //   font-size: 18px;
+      //   font-style: normal;
+      //   font-weight: 400;
+      //   line-height: 140%; /* 25.2px */
+      //   text-align: justify;
+      // }
     }
   }
 
@@ -81,6 +87,8 @@
             font-weight: 300;
             line-height: 140%; /* 21px */
             opacity: 0.45;
+
+            text-align:right;
           }
         }
 
@@ -187,7 +195,7 @@
     background-position: 50% 50%;
   
     .top-container {
-      flex-direction: column;
+      flex-direction: column-reverse;
   
       .title-box {
         margin: 110px 100px 100px 100px;
@@ -241,6 +249,10 @@
 }
 @media (max-width: 768px) {
   .footer-container {
+    // width: 100%;
+    // padding-top: 50%;
+    // background-size: 100% 100%;
+    
   
     .top-container {
       flex-direction: column-reverse;
@@ -276,7 +288,7 @@
     
             p {
               font-size: 10px;
-              text-align:right;
+              
             }
           }
           .svg-box {

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Inter:wght@400;600;700&family=Montserrat:wght@700&family=Nunito+Sans:opsz@6..12&family=Oswald:wght@400;600;700&family=Pacifico&family=Titillium+Web:wght@400;600;700&display=swap');
+
+$font-white: #FFFFFF;
+$font-black: #111111;
+$font-haiti: #2B2B37;
+$font-tiger-lily: #E25A3C;
+$font-renga-brick: #b44f2e;
+$bg-black: #111111;
+$bg-renga-brick: #b44f2e;
+$bg-young-night: #232323;
+$bg-white: #ffffff;
+$bg-tiger-lily: #e25a3c;
+
+
+$family-titillium-web: "Titillium Web", sans-serif;
+$family-oswald: "Oswald", sans-serif;
+$family-inter: "Inter", sans-serif;
+$family-nurito-sans: "Nurito Sans", sans-serif;
+$family-montserrat: "Montserrat", sans-serif;
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1440px;
+
+html, 
+body, * { 
+  margin: 0; padding: 0; 
+}
+
+.container {
+  // margin: 0 auto;
+  // padding: 0 150px;
+  width: 100%;
+}

@@ -36,16 +36,16 @@ const Footer = () => {
       <div className="bottom-container">
         <div className="bottom-box">
           <div className="left-box">
-            <NavLink to="/legal-course/safety-data-transfer">
+            <NavLink to="/safety-data-transfer">
               Політика безпеки
             </NavLink>
-            <NavLink to="/legal-course/money-back">
+            <NavLink to="/money-back">
               Політика повернення платежів
             </NavLink>
-            <NavLink to="/legal-course/privacy">
+            <NavLink to="/privacy">
               Політика конфіденційності
             </NavLink>
-            <NavLink to="/legal-course/public-contract">
+            <NavLink to="/public-contract">
               Публічний договір
             </NavLink>
           </div>

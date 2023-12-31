@@ -178,6 +178,10 @@
       text-transform: uppercase;
       border: none;
 
+      &:active {
+        background: $bg-tiger-lily;
+      }
+
     }
   }
 }

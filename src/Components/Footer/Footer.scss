@@ -73,11 +73,15 @@
 
       
       .right-box {
+        width: 55%;
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
+        flex-direction: row-reverse;
+        justify-content: space-between;
         gap: 15px;
 
         .middle-box {
+          align-self: flex-end;
   
           p {
             color: $font-white;
@@ -88,45 +92,51 @@
             line-height: 140%; /* 21px */
             opacity: 0.45;
 
-            text-align:right;
+            // text-align:right;
           }
         }
 
-        .svg-box {
+        .contacts-box {
           display: flex;
-          gap: 20px;
+          flex-direction: column-reverse;
+          gap: 30px;
 
-          .telegram-svg {
-            background: url("./../../assets/img/footer/telegram-icon.svg");
-            width: 30px;
-            height: 30px;
+          .mail {
+            color: $font-white;
+            font-family: $family-titillium-web;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 140%; /* 21px */
             opacity: 0.45;
+            text-decoration: none;
           }
 
-          .viber-svg {
-            background: url("./../../assets/img/footer/viber-icon.svg");
-            width: 30px;
-            height: 30px;
-            opacity: 0.45;
+          .svg-box {
+            display: flex;
+            gap: 20px;
+  
+            .telegram-svg {
+              background: url("./../../assets/img/footer/telegram-icon.svg");
+              width: 30px;
+              height: 30px;
+              opacity: 0.45;
+            }
+  
+            .viber-svg {
+              background: url("./../../assets/img/footer/viber-icon.svg");
+              width: 30px;
+              height: 30px;
+              opacity: 0.45;
+            }
+  
+            .fb-svg {
+              background: url("./../../assets/img/footer/facebook-icon.svg");
+              width: 30px;
+              height: 30px;
+              opacity: 0.45;
+            }
           }
-
-          .fb-svg {
-            background: url("./../../assets/img/footer/facebook-icon.svg");
-            width: 30px;
-            height: 30px;
-            opacity: 0.45;
-          }
-        }
-
-        .mail {
-          color: $font-white;
-          font-family: $family-titillium-web;
-          font-size: 15px;
-          font-style: normal;
-          font-weight: 300;
-          line-height: 140%; /* 21px */
-          opacity: 0.45;
-          text-decoration: none;
         }
       }
     }
@@ -163,26 +173,29 @@
   
         
         .right-box {
-
+          
           .middle-box {
     
             p {
             }
           }
-  
-          .svg-box {
-  
-            .telegram-svg {
+          
+          .contacts-box {
+            
+            .mail {
             }
-  
-            .viber-svg {
+            
+            .svg-box {
+    
+              .telegram-svg {
+              }
+    
+              .viber-svg {
+              }
+    
+              .fb-svg {
+              }
             }
-  
-            .fb-svg {
-            }
-          }
-  
-          .mail {
           }
         }
       }
@@ -191,8 +204,10 @@
 }
 @media (max-width: 1024px) {
   .footer-container {
-    background-size: cover;
-    background-position: 50% 50%;
+    padding-top: 35%;
+    width: 100%;
+    background-size: contain;
+    background-position: 50% 10%;
   
     .top-container {
       flex-direction: column-reverse;
@@ -219,39 +234,42 @@
           }
         }
   
-        
         .right-box {
-
+          
           .middle-box {
     
             p {
             }
           }
-  
-          .svg-box {
-  
-            .telegram-svg {
+          
+          .contacts-box {
+            
+            .mail {
             }
-  
-            .viber-svg {
+            
+            .svg-box {
+    
+              .telegram-svg {
+              }
+    
+              .viber-svg {
+              }
+    
+              .fb-svg {
+              }
             }
-  
-            .fb-svg {
-            }
-          }
-  
-          .mail {
           }
         }
       }
     }
   }
 }
+
 @media (max-width: 768px) {
   .footer-container {
     // width: 100%;
-    padding-top: 60%;
-    width: 100%;
+    padding-top: 50%;
+
 
     background-size: cover;
     
@@ -282,40 +300,46 @@
             font-size: 10px;
           }
         }
-  
-        
+
         .right-box {
+          flex-direction: column;
+          width: auto;
           
           .middle-box {
     
             p {
               font-size: 10px;
-              
             }
           }
-          .svg-box {
-  
-            .telegram-svg {
-              width: 19px;
-              height: 19px;
-              background-size: cover;
+          
+          .contacts-box {
+            flex-direction: column;
+            gap: 15px;
+            
+            .mail {
+              font-size: 11px;
             }
-  
-            .viber-svg {
-              width: 19px;
-              height: 19px;
-              background-size: cover;
+            
+            .svg-box {
+    
+              .telegram-svg {
+                width: 19px;
+                height: 19px;
+                background-size: cover;
+              }
+    
+              .viber-svg {
+                width: 19px;
+                height: 19px;
+                background-size: cover;
+              }
+    
+              .fb-svg {
+                width: 19px;
+                height: 19px;
+                background-size: cover;
+              }
             }
-  
-            .fb-svg {
-              width: 19px;
-              height: 19px;
-              background-size: cover;
-            }
-          }
-  
-          .mail {
-            font-size: 11px;
           }
         }
       }

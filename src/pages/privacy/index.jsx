@@ -1,4 +1,5 @@
 import "./../style/index.scss";
+import { NavLink } from "react-router-dom";
 
 const Privacy = () => {
   return (
@@ -10,7 +11,10 @@ const Privacy = () => {
         </div>
         <div className="info-box">
           <div className="box-top">
-            <h2>Головна</h2><span></span><h3>Політика конфіденційності</h3> 
+            {/* <h2>Головна</h2> */}
+            <NavLink to="/legal-course">Головна</NavLink>
+            <span></span>
+            <h3>Політика конфіденційності</h3> 
           </div>
 
           <div className="box-mid">

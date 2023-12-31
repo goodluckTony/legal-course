@@ -83,6 +83,7 @@
             -webkit-user-select: none;
             -ms-user-select: none;
             user-select: none;
+            margin-right: 12px;
 
             .close {
               width: 24px;
@@ -244,6 +245,7 @@
           .question-section {
   
             .name {
+              margin: 25px 12px;
             }
   
             .is-open {
@@ -296,16 +298,24 @@
           .question-section {
   
             .name {
-              font-size: 20px;
+              margin: 20px 12px;
+              font-size: 18px;
+              line-height: 120%;
               // text-align: justify;
             }
   
             .is-open {
   
               .close {
+                width: 20px;
+                height: 20px;
+                background-size: contain;
               }
   
               .open {
+                width: 20px;
+                height: 20px;
+                background-size: contain;
               }
             }
           }
@@ -313,6 +323,7 @@
           .answer {
             // text-align: justify;
             // padding-right: 37px;
+            font-size: 15px;
           }
   
           .horizontal-line {

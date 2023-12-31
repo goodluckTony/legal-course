@@ -40,7 +40,7 @@ function App() {
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<LazyHome />} />
+          <Route path="/legal-course" element={<LazyHome />} />
           <Route path="safety-data-transfer" element={<LazySafetyDataTrans />} />
           <Route path="money-back" element={<LazyMoneyBack />} />
           <Route path="privacy" element={<LazyPrivacy />} />

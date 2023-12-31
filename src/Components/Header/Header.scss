@@ -134,10 +134,11 @@
         }
   
         .bottom-price {
-          width: 143px;
+          // width: 143px;
           display: flex;
           flex-direction: column;
           align-items: center;
+          gap: 4px;
   
           .bottom-price-after {
   
@@ -147,6 +148,7 @@
               font-size: 28px;
               line-height: 36.4px;
               color: $font-white;
+              white-space: nowrap;
             }
           }
   
@@ -159,6 +161,7 @@
               line-height: 26px;
               color: $font-black;
               text-decoration: line-through;
+              white-space: nowrap;
             }
           }
         }

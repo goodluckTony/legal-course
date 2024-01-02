@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/legal-course/static/js/main.696c932e.js",
-    "static/css/593.700beb32.chunk.css": "/legal-course/static/css/593.700beb32.chunk.css",
+    "main.js": "/legal-course/static/js/main.d273831b.js",
+    "static/css/593.fd19e548.chunk.css": "/legal-course/static/css/593.fd19e548.chunk.css",
     "static/js/593.bbbba6f7.chunk.js": "/legal-course/static/js/593.bbbba6f7.chunk.js",
     "static/css/3.f3cf13e1.chunk.css": "/legal-course/static/css/3.f3cf13e1.chunk.css",
     "static/js/3.87970169.chunk.js": "/legal-course/static/js/3.87970169.chunk.js",
@@ -36,8 +36,8 @@
     "static/media/facebook-icon.svg": "/legal-course/static/media/facebook-icon.a57eb6ca68826b5b2fed.svg",
     "static/media/slash-icon.svg": "/legal-course/static/media/slash-icon.45e3a4768b9c92c59cfa.svg",
     "index.html": "/legal-course/index.html",
-    "main.696c932e.js.map": "/legal-course/static/js/main.696c932e.js.map",
-    "593.700beb32.chunk.css.map": "/legal-course/static/css/593.700beb32.chunk.css.map",
+    "main.d273831b.js.map": "/legal-course/static/js/main.d273831b.js.map",
+    "593.fd19e548.chunk.css.map": "/legal-course/static/css/593.fd19e548.chunk.css.map",
     "593.bbbba6f7.chunk.js.map": "/legal-course/static/js/593.bbbba6f7.chunk.js.map",
     "3.f3cf13e1.chunk.css.map": "/legal-course/static/css/3.f3cf13e1.chunk.css.map",
     "3.87970169.chunk.js.map": "/legal-course/static/js/3.87970169.chunk.js.map",
@@ -49,6 +49,6 @@
     "139.3dca9235.chunk.js.map": "/legal-course/static/js/139.3dca9235.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.696c932e.js"
+    "static/js/main.d273831b.js"
   ]
 }

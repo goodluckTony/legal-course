@@ -268,17 +268,18 @@
 @media (max-width: 768px) {
   .footer-container {
     // width: 100%;
-    padding-top: 50%;
-
-
-    background-size: cover;
-    
+    // padding-top: 50%;
+    // background-size: cover;
+    background: none;
+    padding: 0;
   
     .top-container {
       flex-direction: column-reverse;
   
       .title-box {
-        margin: 70px 20px 70px 20px;
+        // margin: 70px 20px 70px 20px;
+        margin: 0;
+        // pad: 0;
   
         h2 {
         }
